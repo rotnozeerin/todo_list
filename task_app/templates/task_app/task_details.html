@@ -1,0 +1,14 @@
+{% extends 'task_app/base.html' %} 
+
+{% block title %}{{task.task_title}}{% endblock %} 
+{% block content %}
+<div class="container card p-4 shadow p-3 mb-5 bg-body-tertiary rounded">
+    <div class="card-body shadow p-3 mb-5 bg-body-tertiary rounded" >{{task.task_title}}</div>
+    <div class="shadow p-3 mb-5 bg-body-tertiary rounded" style="height: auto">{{task.task_description}}</div>
+    {% if task.is_completed %}
+        <div class="p-3 mb-2 bg-info-subtle text-emphasis-info rounded-pill" style="width:200px;">Staus: Completed</div>
+    {% else %}
+        <div class="p-3 mb-2 bg-info-subtle text-emphasis-info rounded-pill" style="width:200px;">Status: Pending</div>
+    {% endif %}
+</div>
+{% endblock content %}
