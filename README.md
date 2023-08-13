@@ -1,5 +1,5 @@
 ```markdown
 # TO DO List 
 
-This Django project is a simple Task Manager web application that allows users to manage tasks, mark tasks as completed, and perform various actions related to tasks. This project is created on account of an assigment in SWE course in Phitron
+A To-Do list is a list that you can keep to put all of the tasks that you need to complete on a given day. It can be very useful for managing time, by planning your day ahead of time, and prioritizing activities.
 
